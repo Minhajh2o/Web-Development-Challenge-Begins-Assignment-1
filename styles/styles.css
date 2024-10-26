@@ -58,7 +58,7 @@ p {
   border: 1px solid #0D1321;
   border-radius: 8px;
   opacity: 0.8;
-  
+
   /* btn text styles */
   color: #0D1321;
   text-align: center;
@@ -68,11 +68,16 @@ p {
   font-weight: 600;
   line-height: normal;
 }
+
 .btn-primary:hover {
-  opacity: 1; /* Increase opacity on hover */
-  background-color: #0D1321; /* Change background color on hover */
-  color: #FFFFFF; /* Change text color on hover */
-  border-color: #FFFFFF; /* Change border color on hover */
+  opacity: 1;
+  /* Increase opacity on hover */
+  background-color: #0D1321;
+  /* Change background color on hover */
+  color: #FFFFFF;
+  /* Change text color on hover */
+  border-color: #FFFFFF;
+  /* Change border color on hover */
 }
 
 /* body styles */
@@ -94,6 +99,8 @@ nav {
   justify-content: center;
   align-items: center;
   gap: 10px;
+  margin-top: 32px;
+  border: 1px solid #0D1321;
   border-radius: 8px;
   background: #0D1321;
   /* btn text */
@@ -105,9 +112,10 @@ nav {
   font-weight: 600;
   line-height: normal;
 }
+
 .contact-btn:hover {
-  background-color: #FFF; 
-  color: #0D1321; 
+  background-color: #FFF;
+  color: #0D1321;
   border-color: #0D1321;
 }
 
@@ -323,7 +331,7 @@ main {
 }
 
 .about-section-5 {
-  padding: 0 112px;
+  padding: 0 130px;
   text-align: center;
   line-height: normal;
 }
@@ -336,7 +344,7 @@ main {
 .section-5-description {
   color: #FFF;
   opacity: 0.7;
-  width: 606px;
+  /* width: 606px; */
 }
 
 .feedback {
@@ -351,4 +359,18 @@ main {
   border: 1px solid rgba(13, 19, 33, 0.15);
   background: #FFF;
   color: rgba(13, 19, 33, 0.40);
+}
+
+/* footer styles */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 150px;
+  background: rgba(13, 19, 33, 0.03);
+}
+
+.social-icons {
+  display: flex;
+  gap: 24px;
 }
